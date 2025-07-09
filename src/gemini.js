@@ -4,7 +4,7 @@ import { GoogleGenAI , HarmBlockThreshold,HarmCategory} from '@google/genai';
 // **WARNING:** Storing API keys directly in code is generally not recommended for production.
 // For demonstration purposes or very limited, secure environments, it can be used.
 // For production, always use environment variables or a secure secret management system.
-const API_KEY = "AIzaSyDIQpxQqIuof2SSYLoiYd0eNeHSTNN7sUA"; // Replace with your actual static API key
+const API_KEY ="" // Replace with your actual static API key
 const generativeConfig = {
   temperature: 1,
   topP: 0.95,
